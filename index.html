@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PixelEdit - Image Editor</title>
+
+    <!-- Theme -->
+    <link rel="stylesheet" href="theme.css">
+
+    <!-- Main Styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    >
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!--  HEADER  -->
+
+        <header class="topbar">
+
+            <div class="brand">
+                <div class="brand-icon">
+                    <i class="ri-image-edit-line"></i>
+                </div>
+
+                <div>
+                    <h1>PixelEdit</h1>
+                    <span>Image Editor</span>
+                </div>
+            </div>
+
+            <div class="top-actions">
+
+                <button id="reset-btn" class="top-btn reset-btn">
+                    <i class="ri-refresh-line"></i>
+                    Reset
+                </button>
+
+                <button id="download-btn" class="top-btn download-btn">
+                    <i class="ri-download-2-line"></i>
+                    Download
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- ================= MAIN EDITOR ================= -->
+
+        <main class="editor">
+
+            <!-- ================= LEFT SIDEBAR ================= -->
+
+            <aside class="sidebar">
+
+                <!-- Upload -->
+
+                <div class="panel-section">
+
+                    <div class="section-title">
+                        <i class="ri-upload-cloud-2-line"></i>
+                        <span>Upload Image</span>
+                    </div>
+
+                    <label for="image-input" class="upload-box">
+
+                        <i class="ri-image-add-line"></i>
+
+                        <strong>Choose an image</strong>
+
+                        <span>JPG, PNG or WEBP</span>
+
+                    </label>
+
+                    <input
+                        type="file"
+                        id="image-input"
+                        accept="image/*"
+                        hidden
+                    >
+
+                </div>
+
+
+                <!-- Presets -->
+
+                <div class="panel-section presets-section">
+
+                    <div class="section-title">
+                        <i class="ri-magic-line"></i>
+                        <span>Presets</span>
+                    </div>
+
+                    <div class="presets"></div>
+
+                </div>
+
+
+                <!-- Filters -->
+
+                <div class="panel-section filter-section">
+
+                    <div class="section-title">
+
+                        <div class="section-heading">
+                            <i class="ri-equalizer-2-line"></i>
+                            <span>Adjustments</span>
+                        </div>
+
+                    </div>
+
+                    <div class="filters"></div>
+
+                </div>
+
+            </aside>
+
+
+            <!--CANVAS AREA  -->
+
+            <section class="workspace">
+
+                <div class="workspace-top">
+
+                    <div class="workspace-title">
+
+                        <span class="status-dot"></span>
+
+                        <span>Editing workspace</span>
+
+                    </div>
+
+                    <span class="workspace-hint">
+                        Adjust your image in real time
+                    </span>
+
+                </div>
+
+
+                <div class="canvas-area">
+
+                    <div class="canvas-wrapper">
+
+                        <div class="placeholder">
+
+                            <div class="placeholder-icon">
+                                <i class="ri-image-line"></i>
+                            </div>
+
+                            <h2>No image selected</h2>
+
+                            <p>
+                                Upload an image to start editing
+                            </p>
+
+                            <label for="image-input" class="placeholder-btn">
+                                <i class="ri-upload-2-line"></i>
+                                Upload Image
+                            </label>
+
+                        </div>
+
+                        <canvas id="image-canvas"></canvas>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BOTTOM INFO -->
+
+                <div class="workspace-bottom">
+
+                    <div class="tip">
+                        <i class="ri-information-line"></i>
+                        <span>Changes are previewed instantly</span>
+                    </div>
+
+                    <div class="format">
+                        <i class="ri-file-image-line"></i>
+                        <span>PNG / JPG</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

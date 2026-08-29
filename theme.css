@@ -1,0 +1,71 @@
+:root {
+  /*  BACKGROUND */
+
+  --bg-primary-color: #f5f6f8;
+  --bg-secondary-color: #ffffff;
+  --bg-tertiary-color: #fafafa;
+
+  --bg-dark: #18181b;
+
+  /*ACCENT  */
+
+  --accent-primary: #7c3aed;
+  --accent-primary-light: #ede9fe;
+  --accent-primary-dark: #6d28d9;
+
+  /* STATUS  */
+
+  --bg-danger-color: #ef4444;
+  --bg-success-color: #22c55e;
+
+  /* TEXT  */
+
+  --text-primary-color: #18181b;
+  --text-secondary-color: #52525b;
+  --text-tertiary-color: #a1a1aa;
+  --text-active-color: #ffffff;
+
+  /* BORDER  */
+
+  --border-color: #e4e4e7;
+  --border-light: #f0f0f2;
+
+  /* SHADOW  */
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+  /* SPACING */
+
+  --padding-xs: 0.25rem;
+  --padding-sm: 0.5rem;
+  --padding-md: 0.75rem;
+  --padding-lg: 1rem;
+  --padding-xl: 1.5rem;
+  --padding-2xl: 2rem;
+
+  --gutter-xs: 0.25rem;
+  --gutter-sm: 0.5rem;
+  --gutter-md: 0.75rem;
+  --gutter-lg: 1rem;
+  --gutter-xl: 1.5rem;
+
+  /* FONT */
+
+  --font-size-xs: 0.7rem;
+  --font-size-sm: 0.8rem;
+  --font-size-md: 0.9rem;
+  --font-size-lg: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+
+  /*RADIUS */
+
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+}
