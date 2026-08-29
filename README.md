@@ -56,10 +56,13 @@ pixel-edit-image-editor/
 ├── theme.css
 ├── script.js
 ├── README.md
+│
 └── screenshots/
     ├── dashboard.png
-    ├── image-editing.png
-    └── presets.png
+    ├── editing.png
+    ├── download_img.png
+    ├── preset_drama.png
+    └── black&white.png
 ```
 
 ## How to Use
@@ -76,19 +79,22 @@ pixel-edit-image-editor/
 
 ### Editor Dashboard
 
-![PixelEdit Dashboard]<img width="1354" height="643" alt="image" src="https://github.com/user-attachments/assets/2cd3f846-158c-43f6-a8da-be79a3e9bad3" />
-(screenshots/dashboard.png)
+![PixelEdit Dashboard]<img width="1354" height="643" alt="dashboard" src="https://github.com/user-attachments/assets/e7bb23aa-c537-4e4c-b905-ee63e082d747" />
 
 ### Image Editing
 
-![Image Editing]<img width="1364" height="645" alt="image" src="https://github.com/user-attachments/assets/d81a87f0-5530-4d43-99db-950cfbd0944b" />
-
+![Image Editing]<img width="1364" height="645" alt="editing" src="https://github.com/user-attachments/assets/d9a87f2a-6937-48ee-84c1-a27e3e10028b" />
 
 ### Presets
 
-![Presets]<img width="1363" height="646" alt="image" src="https://github.com/user-attachments/assets/3d6acf76-c0a7-4bcc-8450-da807a8bf429" />
-<img width="1355" height="645" alt="image" src="https://github.com/user-attachments/assets/0e99450f-5034-413e-befe-cec1058dfd0b" />
-<img width="1360" height="647" alt="image" src="https://github.com/user-attachments/assets/bc15fb8c-ae66-489b-8091-5eeea41826cd" />
+### Black & White
+
+![PixelEdit Drama Preset]<img width="1363" height="646" alt="black white" src="https://github.com/user-attachments/assets/af5175ec-fa90-468d-96f1-75366fa66b8f" />
+
+### Drama Preset
+
+<img width="1355" height="645" alt="preset_drama" src="https://github.com/user-attachments/assets/ef3792e4-24c8-4cba-9661-6e22059bdc7a" />
+
 
 
 
